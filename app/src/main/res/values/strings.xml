@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">sacr-mobile-client</string>
+    <string name="scan_green_pass">Scan Green Pass</string>
 </resources>
