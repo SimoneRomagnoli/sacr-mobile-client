@@ -8,7 +8,7 @@
     tools:context=".fragments.ScanButtonFragment">
 
     <Button
-        android:id="@+id/scan"
+        android:id="@+id/scan_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
