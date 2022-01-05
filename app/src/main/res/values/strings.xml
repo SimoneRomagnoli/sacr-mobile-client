@@ -3,4 +3,5 @@
     <string name="scan_green_pass">Scan Green Pass</string>
     <string name="send_nfc">send nfc</string>
     <string name="change_green_pass">change green pass</string>
+    <string name="name">name</string>
 </resources>

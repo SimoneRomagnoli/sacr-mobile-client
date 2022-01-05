@@ -13,6 +13,14 @@
         android:orientation="vertical"
         android:gravity="center">
 
+        <TextView
+            android:id="@+id/green_pass_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/name"
+            />
+
         <Button
             android:id="@+id/nfc_button"
             android:layout_width="wrap_content"
