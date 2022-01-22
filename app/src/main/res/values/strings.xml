@@ -4,4 +4,6 @@
     <string name="send_nfc">send nfc</string>
     <string name="change_green_pass">change green pass</string>
     <string name="name">name</string>
+    <string name="servicedesc">adpu service</string>
+    <string name="aiddescription">aid group</string>
 </resources>
