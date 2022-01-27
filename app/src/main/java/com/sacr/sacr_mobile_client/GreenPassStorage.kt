@@ -7,12 +7,9 @@ class GreenPassStorage {
         private const val invalidCode: String = "NOT VALID"
         private val greenPassLock = Object()
 
-        private var abc = "ciao"
-
         var code: String? = null
 
         fun setGreenPass(ctx: Context, code: String) {
-            abc = code
             synchronized(greenPassLock) {
                 val preferences = ctx.getSharedPreferences("com.sacr.sacr-mobile-client", Context.MODE_PRIVATE)
                 preferences.edit().putString("green_pass", code).commit()
