@@ -1,27 +1,16 @@
 package com.sacr.sacr_mobile_client.fragments
 
-import COSE.Encrypt0Message
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.FrameLayout
-import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import com.google.gson.Gson
-import com.google.gson.JsonObject
-import com.google.iot.cbor.CborMap
 import com.sacr.sacr_mobile_client.GreenPassStorage
-import com.sacr.sacr_mobile_client.HceService
 import com.sacr.sacr_mobile_client.R
-import nl.minvws.encoding.Base45
-import java.io.ByteArrayOutputStream
-import java.util.zip.Inflater
 
 class GreenPassFragment(private var manager: FragmentManager, private val greenPassCode: String) : Fragment() {
 
@@ -50,6 +39,7 @@ class GreenPassFragment(private var manager: FragmentManager, private val greenP
         }
 
         //DECODING
+        /*
         val code = greenPassCode.substring(4)
         val codeInflater = Inflater()
         codeInflater.setInput(Base45.getDecoder().decode(code))
@@ -72,6 +62,7 @@ class GreenPassFragment(private var manager: FragmentManager, private val greenP
 
         val greenPassName = root.findViewById<TextView>(R.id.green_pass_name)
         greenPassName.text = "$familyName $givenName"
+        */
 
         return root
     }

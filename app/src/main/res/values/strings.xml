@@ -6,4 +6,5 @@
     <string name="name">name</string>
     <string name="servicedesc">adpu service</string>
     <string name="aiddescription">aid group</string>
+    <string name="green_pass_ready">Green Pass Ready</string>
 </resources>

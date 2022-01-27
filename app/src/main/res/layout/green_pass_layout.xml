@@ -11,16 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        >
 
         <TextView
             android:id="@+id/green_pass_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/name"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            />
+            android:layout_marginBottom="20pt"
+            android:text="@string/green_pass_ready"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <Button
             android:id="@+id/change_green_pass_button"
