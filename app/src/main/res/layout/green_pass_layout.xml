@@ -19,18 +19,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             />
-
-        <Button
-            android:id="@+id/nfc_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/send_nfc"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/change_green_pass_button"

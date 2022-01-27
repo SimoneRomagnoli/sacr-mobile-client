@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         val greenPass: String? = preferences.getString("green_pass", null)
 
         val transaction: FragmentTransaction = manager.beginTransaction()
+
         if (greenPass != null) {
             val greenPassFragment = GreenPassFragment(manager, greenPass)
             transaction.add(R.id.fragment_container, greenPassFragment)
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             val scanButtonFragment = ScanButtonFragment(manager)
             transaction.add(R.id.fragment_container, scanButtonFragment)
         }
+
         transaction.commit()
     }
 }

@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.budiyev.android.codescanner.*
+import com.sacr.sacr_mobile_client.GreenPassStorage
 import com.sacr.sacr_mobile_client.R
 
 class ScanCodeFragment(var manager: FragmentManager) : Fragment() {
