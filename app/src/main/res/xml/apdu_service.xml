@@ -6,5 +6,6 @@
         android:category="other">
         <aid-filter android:name="A0000001020301" />
         <aid-filter android:name="A0000001020302" />
+        <aid-filter android:name="A0000001020303" />
     </aid-group>
 </host-apdu-service>
