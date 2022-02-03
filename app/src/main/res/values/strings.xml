@@ -6,5 +6,7 @@
     <string name="name">name</string>
     <string name="servicedesc">adpu service</string>
     <string name="aiddescription">aid group</string>
-    <string name="green_pass_ready">Green Pass Ready</string>
+    <string name="green_pass_ready">Green Pass Scanned</string>
+    <string name="hold_near_reader_nto_verify_your_dcc">Hold near reader\nto verify your DCC</string>
+    <string name="certificate">certificate</string>
 </resources>
